@@ -1,4 +1,4 @@
-# Wakaaama-K64F
+# Wakaama-K64F
 
 This is an implementation of the Wakaama client for the NXP FRDM-K64F running mbed. This library should be compatible with any mbed device by replacing these platform-specific libraries:
 

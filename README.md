@@ -2,9 +2,9 @@
 
 This is an implementation of the Wakaama client for the NXP FRDM-K64F running mbed. This library should be compatible with any mbed device by replacing these platform-specific libraries:
 
-    - EthernetInterface
-    - mbed-rtos
-    - mbed
+    EthernetInterface
+    mbed-rtos
+    mbed
 
 To compile for the K64F, import this project into the [mbed Compiler](https://developer.mbed.org/compiler "mbed Compiler") as a project for the FRDM-K64F. Then, add the following macros under the 'Compile' menu:
 

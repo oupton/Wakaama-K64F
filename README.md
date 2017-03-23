@@ -19,7 +19,7 @@ The original project that this was based on was for the LPC1768. To implement fo
 
 #### Missing standard library functions
 
-Wakaama by default uses 'sys/time.h', although this library is not available in the mbed toolchain. 'lwm2m`_gettimeofday()' was implemented in lwm2m.c to populate the internal time struct with the return value from 'time()'.
+Wakaama by default uses 'sys/time.h', although this library is not available in the mbed toolchain. 'lwm2m_gettimeofday()' was implemented in lwm2m.c to populate the internal time struct with the return value from 'time()'.
 
 Furthermore, the mbed string library does not have 'strdup()', so an implementation using 'strcpy()' was added to the project.
 
